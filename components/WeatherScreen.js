@@ -1,5 +1,5 @@
 import React from 'react';
-import Weather from './Weather'
+import Weather from './weather'
 import { Button, StyleSheet, FlatList, View, Text, TouchableHighlight } from 'react-native';
 import ZipCodeScreen from './ZipCodeScreen'
 export default class WeatherScreen extends React.Component {

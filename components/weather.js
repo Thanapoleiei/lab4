@@ -1,6 +1,7 @@
 import React from 'react';
 import Forecast from './Forecast'
 import { ImageBackground, StyleSheet, Text, View } from 'react-native';
+
 export default class extends React.Component {
     constructor(props) {
         super(props);
@@ -48,7 +49,7 @@ export default class extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <ImageBackground source={require('./bg.jpg')} style={styles.backdrop}>
+                <ImageBackground source={require('./ock.jpg')} style={styles.backdrop}>
                     <View style={styles.layout}>
                         <View style={styles.box_opacity}>
                             <Text style={styles.text}>Zip code is . {this.props.zipCode}.</Text>

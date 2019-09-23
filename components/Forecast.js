@@ -10,11 +10,11 @@ export default class Forecast extends React.Component {
                     <View style={styles.layout}>
                         <Text style={styles.cel}>{this.props.temp}</Text>
                         <Text style={styles.texts}>°C</Text>
-                        <Text style={styles.namejan}>             </Text>
-                        <Text style={styles.namejan}>             </Text>
-                        <Text style={styles.namejan}>             </Text>
-                        <Text style={styles.namejan}>JANTAPA BINHEEM </Text>
-                        <Text style={styles.namejan}>No:6035512034</Text>
+                        <Text style={styles.name}>             </Text>
+                        <Text style={styles.name}>             </Text>
+                        <Text style={styles.name}>             </Text>
+                        <Text style={styles.name}>Thanapol Kamdee </Text>
+                        <Text style={styles.name}>6035512041</Text>
                     </View>
                 </View>
             </View>
@@ -27,5 +27,5 @@ const styles = StyleSheet.create({
     texts: {flexDirection: 'row',  textAlign: 'center', paddingTop: 20, color: 'white' },
     cel: { textAlign: 'center', paddingTop: 15, color: 'white', fontSize: 39 },
     layout: { alignItems: 'center', justifyContent: 'center' },
-    namejan: { textAlign: 'center', color: 'white', fontSize: 20 }
+    name: { textAlign: 'center', color: 'white', fontSize: 20 }
 });
